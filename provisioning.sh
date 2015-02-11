@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# NPM
+sudo apt-get install npm
+npm install -g http-server
+
 # GIMP
 sudo apt-get install gimp
 
