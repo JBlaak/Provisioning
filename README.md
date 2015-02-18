@@ -3,7 +3,9 @@ Provisioning
 
 Helping me to setup all tools needed for me to get up and running
 
-Usage
-----
+After install
+------
 
-Run from `~/Tools`
+```bash
+* gcloud auth login
+```
