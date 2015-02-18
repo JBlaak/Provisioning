@@ -7,5 +7,5 @@ After install
 ------
 
 ```bash
-* gcloud auth login
+gcloud auth login
 ```
