@@ -4,6 +4,9 @@
 sudo apt-get install npm
 npm install -g http-server
 
+# GCloud
+curl https://sdk.cloud.google.com | bash
+
 # GIMP - when we want to be a designer
 sudo apt-get install gimp
 
