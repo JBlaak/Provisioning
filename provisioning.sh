@@ -15,6 +15,11 @@ curl https://sdk.cloud.google.com | bash
 # GIMP - when we want to be a designer
 sudo apt-get install gimp
 
+# f.lux
+sudo add-apt-repository ppa:kilian/f.lux
+sudo apt-get update
+sudo apt-get install fluxgui
+
 # PhantomJS - browser for JS testing
 cd ~/Tools
 wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-x86_64.tar.bz2
