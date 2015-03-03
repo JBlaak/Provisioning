@@ -12,6 +12,9 @@ sudo apt-get install php5
 # GCloud
 curl https://sdk.cloud.google.com | bash
 
+# Heroku
+sudo wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
 # GIMP - when we want to be a designer
 sudo apt-get install gimp
 
