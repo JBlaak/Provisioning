@@ -18,6 +18,9 @@ sudo wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 # GIMP - when we want to be a designer
 sudo apt-get install gimp
 
+# Shutter - screenshots
+sudo apt-get install shutter
+
 # f.lux
 sudo add-apt-repository ppa:kilian/f.lux
 sudo apt-get update
