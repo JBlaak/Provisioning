@@ -21,6 +21,9 @@ sudo apt-get install gimp
 # Shutter - screenshots
 sudo apt-get install shutter
 
+# Needed for stuff like Travis
+sudo apt-get install ruby-dev
+
 # f.lux
 sudo add-apt-repository ppa:kilian/f.lux
 sudo apt-get update
