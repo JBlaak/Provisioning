@@ -21,6 +21,11 @@ sudo wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 # GIMP - when we want to be a designer
 sudo apt-get install gimp
 
+# Pinta, for painting
+sudo add-apt-repository ppa:pinta-maintainers/pinta-stable
+sudo apt-get update
+sudo apt-get install pinta 
+
 # Shutter - screenshots
 sudo apt-get install shutter
 
