@@ -11,6 +11,8 @@ sudo apt-get install php5
 
 # PHP Extensions
 sudo apt-get install php5-gd
+sudo apt-get install php5-mccrypt
+sudo apt-get install php5-curl
 
 # Composer for PHP package managing
 sudo curl -sS https://getcomposer.org/installer | php
