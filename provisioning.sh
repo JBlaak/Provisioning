@@ -12,6 +12,10 @@ sudo apt-get install php5
 # PHP Extensions
 sudo apt-get install php5-gd
 
+# Composer for PHP package managing
+sudo curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+
 # GCloud
 curl https://sdk.cloud.google.com | bash
 
