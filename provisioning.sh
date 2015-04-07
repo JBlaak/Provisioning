@@ -20,6 +20,11 @@ sudo apt-get install php5-intl
 sudo curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
+# JDK
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
+
 # GCloud
 curl https://sdk.cloud.google.com | bash
 
