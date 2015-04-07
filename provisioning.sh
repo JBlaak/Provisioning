@@ -15,9 +15,17 @@ sudo apt-get install php5-mccrypt
 sudo apt-get install php5-curl
 sudo apt-get install php5-memcached
 sudo apt-get install php5-intl
+sudo apt-get install php5-mysql
+
 
 # MySQL
 sudo apt-get install mysql-server
+
+# Emma, for browsing MySQL databases
+sudo apt-get install emma
+
+# MySQL Workbech, when you want an overkill of MySQL function
+sudo apt-get install mysql-workbench
 
 # Composer for PHP package managing
 sudo curl -sS https://getcomposer.org/installer | php
