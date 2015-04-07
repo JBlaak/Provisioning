@@ -13,6 +13,8 @@ sudo apt-get install php5
 sudo apt-get install php5-gd
 sudo apt-get install php5-mccrypt
 sudo apt-get install php5-curl
+sudo apt-get install php5-memcached
+sudo apt-get install php5-intl
 
 # Composer for PHP package managing
 sudo curl -sS https://getcomposer.org/installer | php
