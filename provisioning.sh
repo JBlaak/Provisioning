@@ -16,6 +16,9 @@ sudo apt-get install php5-curl
 sudo apt-get install php5-memcached
 sudo apt-get install php5-intl
 
+# MySQL
+sudo apt-get install mysql-server
+
 # Composer for PHP package managing
 sudo curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
