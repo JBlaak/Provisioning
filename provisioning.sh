@@ -16,6 +16,7 @@ sudo apt-get install php5-curl
 sudo apt-get install php5-memcached
 sudo apt-get install php5-intl
 sudo apt-get install php5-mysql
+sudo apt-get install php5-xdebug
 
 # MySQL
 sudo apt-get install mysql-server
