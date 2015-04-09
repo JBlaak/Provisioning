@@ -48,6 +48,9 @@ sudo apt-get install gitg
 sudo apt-get install vagrant
 sudo apt-get install virtualbox
 
+# POEdit for editing .po translation files
+sudo apt-get install poedit
+
 # GIMP - when we want to be a designer
 sudo apt-get install gimp
 
