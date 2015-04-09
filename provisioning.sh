@@ -44,6 +44,10 @@ sudo wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 # Gitg for when we're lost in branches
 sudo apt-get install gitg
 
+# Vagrant and Virtual box for VMs
+sudo apt-get install vagrant
+sudo apt-get install virtualbox
+
 # GIMP - when we want to be a designer
 sudo apt-get install gimp
 
