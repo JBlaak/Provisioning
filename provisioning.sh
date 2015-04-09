@@ -26,6 +26,12 @@ sudo apt-get install emma
 # MySQL Workbech, when you want an overkill of MySQL function
 sudo apt-get install mysql-workbench
 
+# Ruby
+sudo apt-get install ruby-full
+
+# Gems
+sudo gem install sass
+
 # Composer for PHP package managing
 sudo curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
