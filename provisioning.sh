@@ -94,6 +94,9 @@ ln -s ~/Tools/phantomjs-1.9.7-linux-x86_64/bin/phantomjs $HOME/local/share/phant
 ln -s ~/Tools/phantomjs-1.9.7-linux-x86_64/bin/phantomjs $HOME/local/bin/phantomjs
 ln -s ~/Tools/phantomjs-1.9.7-linux-x86_64/bin/phantomjs $HOME/bin/phantomjs
 
+# Remove stupid Amazon shopping lens, who uses this
+sudo apt-get remove unity-lens-shopping
+
 # Remove Apport - this is the thing that keeps telling you things have crashed, while you're not using them
 # I don't know if this should remain here, but for now, it is nice to not be bugged with errors
 sudo apt-get remove apport
