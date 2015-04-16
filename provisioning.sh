@@ -42,6 +42,9 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java7-installer
 
+# Virtual framebuffer, to run Selenium in
+sudo apt-get install xvfb
+
 # GCloud
 curl https://sdk.cloud.google.com | bash
 
