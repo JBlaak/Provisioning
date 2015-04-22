@@ -41,6 +41,7 @@ sudo mv composer.phar /usr/local/bin/composer
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java7-installer
+sudo apt-get install oracle-java8-installer
 
 # Virtual framebuffer, to run Selenium in
 sudo apt-get install xvfb
