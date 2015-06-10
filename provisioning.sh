@@ -17,6 +17,7 @@ sudo apt-get install -y php5-memcached
 sudo apt-get install -y php5-intl
 sudo apt-get install -y php5-mysql
 sudo apt-get install -y php5-xdebug
+sudo apt-get install -y php5-imagick
 
 # MySQL
 sudo apt-get install -y mysql-server
