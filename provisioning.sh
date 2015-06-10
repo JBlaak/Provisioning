@@ -87,6 +87,13 @@ sudo add-apt-repository ppa:kilian/f.lux
 sudo apt-get update
 sudo apt-get install -y fluxgui
 
+# VMWare Workstation
+curl -L http://www.vmware.com/go/tryworkstation-linux-64 --output vmware-workstation.bundle
+sudo chmod +x vmware-workstation.bundle
+sudo ./vmware-workstation.bundle
+rm vmware-workstation.bundle
+rm tryworkstation-linux-64
+
 # PhantomJS - browser for JS testing
 cd ~/Tools
 wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-x86_64.tar.bz2
