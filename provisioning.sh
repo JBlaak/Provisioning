@@ -25,6 +25,9 @@ sudo apt-get install -y mysql-server
 # Emma, for browsing MySQL databases
 sudo apt-get install -y emma
 
+# Filezilla, for FTP
+sudo apt-get install -y filezilla
+
 # MySQL Workbech, when you want an overkill of MySQL function
 sudo apt-get install -y mysql-workbench
 
