@@ -39,6 +39,7 @@ sudo apt-get install -y ruby-full
 
 # Gems
 sudo gem install sass
+sudo gem install rails
 
 # Composer for PHP package managing
 sudo curl -sS https://getcomposer.org/installer | php
