@@ -22,6 +22,9 @@ sudo apt-get install -y php5-imagick
 # MySQL
 sudo apt-get install -y mysql-server
 
+# Sqllit as a bonus
+sudo apt-get install -y libsqlite3-dev
+
 # Emma, for browsing MySQL databases
 sudo apt-get install -y emma
 
