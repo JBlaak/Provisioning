@@ -95,6 +95,11 @@ sudo add-apt-repository ppa:kilian/f.lux
 sudo apt-get update
 sudo apt-get install -y fluxgui
 
+# Some fonts
+wget --output-document=fonts.zip https://www.dropbox.com/sh/y4i4tkvbta48zxm/AAAvkcp3UQbf936T2dUi4D2Ga?dl=1
+unzip fonts.zip -d ~/.fonts
+rm fonts.zip
+
 # VMWare Workstation
 curl -L http://www.vmware.com/go/tryworkstation-linux-64 --output vmware-workstation.bundle
 sudo chmod +x vmware-workstation.bundle
