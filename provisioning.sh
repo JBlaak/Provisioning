@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb --output-document=chrome.deb
+sudo dpkg -i chrome.deb
+rm chrome.deb
+
 # NPM - Node Package Manager
 sudo apt-get install -y npm
 npm install -g http-server
