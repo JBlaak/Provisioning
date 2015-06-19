@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#Stuffs (thanks Niek)
+sudo apt-get install -y lib32z1
+sudo apt-get install -y lib32ncurses5
+sudo apt-get install -y lib32stdc++6 
+
 # Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb --output-document=chrome.deb
 sudo dpkg -i chrome.deb
