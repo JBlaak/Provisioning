@@ -1,6 +1,11 @@
 #!/bin/bash
 
-#Stuffs (thanks Niek)
+# Marlin, a proper file manager
+sudo add-apt-repository ppa:noobslab/apps
+sudo apt-get update
+sudo apt-get install marlin
+
+# Stuffs (thanks Niek)
 sudo apt-get install -y lib32z1
 sudo apt-get install -y lib32ncurses5
 sudo apt-get install -y lib32stdc++6 
