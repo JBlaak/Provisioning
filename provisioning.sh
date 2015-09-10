@@ -5,6 +5,11 @@ sudo add-apt-repository ppa:noobslab/apps
 sudo apt-get update
 sudo apt-get install marlin
 
+# Equalizer
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install pulseaudio-equalizer
+
 # Stuffs (thanks Niek)
 sudo apt-get install -y lib32z1
 sudo apt-get install -y lib32ncurses5
