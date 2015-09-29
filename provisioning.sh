@@ -1,14 +1,12 @@
 #!/bin/bash
 
-# Marlin, a proper file manager
-sudo add-apt-repository ppa:noobslab/apps
+# Repositories
+sudo add-apt-repository ppa:webupd8team/java
+sudo add-apt-repository ppa:pinta-maintainers/pinta-stable
+sudo apt-add-repository -y "deb http://repository.spotify.com stable non-free"
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
+sudo add-apt-repository ppa:kilian/f.lux
 sudo apt-get update
-sudo apt-get install marlin
-
-# Equalizer
-sudo add-apt-repository ppa:nilarimogard/webupd8
-sudo apt-get update
-sudo apt-get install pulseaudio-equalizer
 
 # Stuffs (thanks Niek)
 sudo apt-get install -y lib32z1
@@ -19,10 +17,6 @@ sudo apt-get install -y lib32stdc++6
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb --output-document=chrome.deb
 sudo dpkg -i chrome.deb
 rm chrome.deb
-
-# NPM - Node Package Manager
-sudo apt-get install -y npm
-npm install -g http-server
 
 # PHP 5.6
 sudo add-apt-repository ppa:ondrej/php5-5.6
@@ -42,9 +36,6 @@ sudo apt-get install -y php5-apcu
 
 # MySQL
 sudo apt-get install -y mysql-server
-
-# Sqllit as a bonus
-sudo apt-get install -y libsqlite3-dev
 
 # Emma, for browsing MySQL databases
 sudo apt-get install -y emma
@@ -67,19 +58,11 @@ sudo curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
 # JDK
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
 sudo apt-get install -y oracle-java7-installer
 sudo apt-get install -y oracle-java8-installer
 
 # Virtual framebuffer, to run Selenium in
 sudo apt-get install -y xvfb
-
-# GCloud
-curl https://sdk.cloud.google.com | bash
-
-# Heroku
-sudo wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 # Gitg for when we're lost in branches
 sudo apt-get install -y gitg
@@ -95,14 +78,9 @@ sudo apt-get install -y poedit
 sudo apt-get install -y gimp
 
 # Pinta, for painting
-sudo add-apt-repository ppa:pinta-maintainers/pinta-stable
-sudo apt-get update
 sudo apt-get install -y pinta 
 
 # Spotify
-sudo apt-add-repository -y "deb http://repository.spotify.com stable non-free"
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59
-sudo apt-get update -qq
 sudo apt-get install -y spotify-client
 
 # Shutter - screenshots
@@ -112,8 +90,6 @@ sudo apt-get install -y shutter
 sudo apt-get install -y ruby-dev
 
 # f.lux
-sudo add-apt-repository ppa:kilian/f.lux
-sudo apt-get update
 sudo apt-get install -y fluxgui
 
 # Some fonts
