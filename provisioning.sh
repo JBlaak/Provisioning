@@ -34,6 +34,10 @@ sudo apt-get install -y php5-xdebug
 sudo apt-get install -y php5-imagick
 sudo apt-get install -y php5-apcu
 
+# Fix mcrypt
+sudo php5enmod mcrypt
+sudo service apache2 restart
+
 # MySQL
 sudo apt-get install -y mysql-server
 
