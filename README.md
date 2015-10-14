@@ -1,17 +1,9 @@
 Provisioning
 ====
 
-Helping me to setup all tools needed for me to get up and running
+So that everything is in place.
 
-After install
-------
+Before installation
+-----
 
-In the terminal:
-
-```bash
-gcloud auth login
-```
-
-Manually:
-
-* Set f.lux location
+Make sure the `.ssh` dir is filled with correct credentials for .dotfiles repo
