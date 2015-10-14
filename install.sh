@@ -10,6 +10,8 @@ sudo apt-get upgrade -y
 
 ./dotfiles.sh
 
+./parts/jdk.sh
+./parts/android.sh
 ./parts/php.sh
 ./parts/mysql.sh
 ./parts/vm.sh
