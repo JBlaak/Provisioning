@@ -1,7 +1,7 @@
 #!/bin/sh
 
 sudo apt-get install -y ruby-full 
-sudo apt-get install -y sass 
+sudo gem install sass
 
 sudo apt-get install -y filezilla
 
