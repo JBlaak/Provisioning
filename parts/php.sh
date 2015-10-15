@@ -12,6 +12,8 @@ sudo apt-get install -y php5-xdebug
 sudo apt-get install -y php5-imagick
 sudo apt-get install -y php5-apcu
 
+sudo sh -c "echo 'xdebug.max_nesting_level=500' >> /etc/php5/cli/conf.d/20-xdebug.ini"
+
 sudo php5enmod mcrypt
 
 sudo mkdir /opt/composer
