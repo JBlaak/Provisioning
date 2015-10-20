@@ -10,6 +10,11 @@ sudo apt-get install -y xvfb
 # For external file watching
 sudo sh -c "echo fs.inotify.max_user_watches = 524288 >> /etc/sysctl.conf"
 
+# Sublime!
+wget "http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3083_amd64.deb"
+sudo dpkg -i sublime-text_build-3083_amd64.deb
+rm sublime-text_build-3083_amd64.deb
+
 # Some fonts
 wget --output-document=fonts.zip https://www.dropbox.com/sh/y4i4tkvbta48zxm/AAAvkcp3UQbf936T2dUi4D2Ga?dl=1
 unzip fonts.zip -d ~/.fonts
