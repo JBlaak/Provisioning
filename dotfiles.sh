@@ -7,4 +7,5 @@ git fetch
 git checkout -t origin/master
 
 echo 'source ~/.bash_profile' >> ~/.bashrc
+echo 'source ~/.bash_aliases' >> ~/.bashrc
 echo '. ~/.env' >> ~/.bashrc
