@@ -2,6 +2,7 @@
 
 sudo apt-get install -y ruby-full 
 sudo gem install sass
+sudo gem install jekyll jekyll-sass rouge
 sudo apt-get install -y filezilla
 
 # Virtual frame buffer
