@@ -22,6 +22,7 @@ sudo apt-get upgrade -y
 ./parts/chrome.sh
 ./parts/tools.sh
 ./parts/uninstalls.sh
+./parts/settings.sh
 
 echo "=============================================="
 echo "Provisioning done"
