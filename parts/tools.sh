@@ -8,3 +8,6 @@ sudo apt-get install -y shutter
 
 # POEdit for editing .po translation files
 sudo apt-get install -y poedit
+
+# For editing the application menu
+sudo apt-get instally -y alacarte
