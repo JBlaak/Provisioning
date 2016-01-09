@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Skype
+sudo apt-get install -y skype
+
 # GIMP - when we want to be a designer
 sudo apt-get install -y gimp
 
