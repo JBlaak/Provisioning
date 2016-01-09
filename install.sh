@@ -14,7 +14,6 @@ sudo apt-get upgrade -y
 ./parts/android.sh
 ./parts/php.sh
 ./parts/mysql.sh
-./parts/vm.sh
 ./parts/spotify.sh
 ./parts/development.sh
 ./parts/node.sh
