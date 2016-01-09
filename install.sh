@@ -21,6 +21,7 @@ sudo apt-get upgrade -y
 ./parts/chrome.sh
 ./parts/tools.sh
 ./parts/printer.sh
+./parts/zsh.sh
 ./parts/uninstalls.sh
 ./parts/settings.sh
 
