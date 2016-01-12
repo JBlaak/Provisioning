@@ -8,11 +8,8 @@ sudo apt-get install -y php7.0
 sudo apt-get install -y php7.0-gd
 sudo apt-get install -y php7.0-mcrypt
 sudo apt-get install -y php7.0-curl
-sudo apt-get install -y php7.0-memcached
 sudo apt-get install -y php7.0-intl
 sudo apt-get install -y php7.0-mysql
-sudo apt-get install -y php7.0-xdebug
-sudo apt-get install -y php7.0-imagick
 
 sudo sh -c "echo 'xdebug.max_nesting_level=500' >> /etc/php5/cli/conf.d/20-xdebug.ini"
 
