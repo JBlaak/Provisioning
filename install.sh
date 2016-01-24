@@ -19,6 +19,7 @@ sudo apt-get upgrade -y
 ./parts/node.sh
 ./parts/vim.sh
 ./parts/chrome.sh
+./parts/redshift.sh
 ./parts/tools.sh
 ./parts/printer.sh
 ./parts/zsh.sh
