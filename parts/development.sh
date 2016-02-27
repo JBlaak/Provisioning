@@ -23,3 +23,6 @@ rm fonts.zip
 wget --output-document=fonts.zip https://www.dropbox.com/sh/5uroqytq8orfju4/AADDD0u5rfph6DwzYuiYsQJIa?dl=1
 unzip fonts.zip -d ~/.fonts
 rm fonts.zip
+
+# Hack font
+sudo apt-get install -y fonts-hack-ttf
