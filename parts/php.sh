@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo add-apt-repository -y ppa:ondrej/php-7.0 
+sudo add-apt-repository -y ppa:ondrej/php
 sudo apt-get update
 sudo apt-get install -y php7.0
 
