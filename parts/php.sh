@@ -13,6 +13,7 @@ sudo apt-get install -y php7.0-mysql
 sudo apt-get install -y php7.0-pgsql
 sudo apt-get install -y php7.0-mbstring
 sudo apt-get install -y php7.0-dom
+sudo apt-get install -y php7.0-zip
 
 # https://gist.github.com/nivv/5d9a12af5472b91606e6
 sudo apt-get install -y pkg-config libmagickwand-dev imagemagick build-essential
