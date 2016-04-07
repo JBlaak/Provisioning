@@ -17,10 +17,10 @@ sudo dpkg -i sublime-text_build-3083_amd64.deb
 rm sublime-text_build-3083_amd64.deb
 
 # Some fonts
-wget --output-document=fonts.zip https://www.dropbox.com/sh/y4i4tkvbta48zxm/AAAvkcp3UQbf936T2dUi4D2Ga?dl=1
+wget --output-document=fonts.zip https://www.dropbox.com/sh/92sp64zou2hnbj4/AABVopCxhXRWU1p3EjmwcQ8Ya?dl=1
 unzip fonts.zip -d ~/.fonts
 rm fonts.zip
-wget --output-document=fonts.zip https://www.dropbox.com/sh/5uroqytq8orfju4/AADDD0u5rfph6DwzYuiYsQJIa?dl=1
+wget --output-document=fonts.zip https://www.dropbox.com/sh/wv42w5zxb19ibfz/AABYJOJcSxbRnwE-ZufwqYINa?dl=1
 unzip fonts.zip -d ~/.fonts
 rm fonts.zip
 
