@@ -8,23 +8,22 @@ sudo apt-get upgrade -y
 ./parts/stuffs.sh
 ./parts/git.sh
 
-./dotfiles.sh
-
 ./parts/jdk.sh
 ./parts/android.sh
 ./parts/php.sh
 ./parts/mysql.sh
 ./parts/spotify.sh
 ./parts/development.sh
-./parts/node.sh
 ./parts/vim.sh
 ./parts/chrome.sh
 ./parts/redshift.sh
 ./parts/tools.sh
 ./parts/printer.sh
-./parts/zsh.sh
 ./parts/uninstalls.sh
 ./parts/settings.sh
+./parts/zsh.sh
+
+./dotfiles.sh
 
 echo "=============================================="
 echo "Provisioning done"

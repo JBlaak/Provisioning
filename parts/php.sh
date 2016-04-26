@@ -1,8 +1,6 @@
 #!/bin/sh
 
-sudo add-apt-repository -y ppa:ondrej/php
-sudo apt-get update
-sudo apt-get install -y php7.0
+sudo apt-get install -y php
 
 
 sudo apt-get install -y php7.0-gd
@@ -13,14 +11,12 @@ sudo apt-get install -y php7.0-mysql
 sudo apt-get install -y php7.0-pgsql
 sudo apt-get install -y php7.0-mbstring
 sudo apt-get install -y php7.0-dom
-sudo apt-get install -y php7.0-zip
+sudo apt-get install -y php7.0-zipc
 
 # https://gist.github.com/nivv/5d9a12af5472b91606e6
 sudo apt-get install -y pkg-config libmagickwand-dev imagemagick build-essential
 
 sudo sh -c "echo 'xdebug.max_nesting_level=500' >> /etc/php5/cli/conf.d/20-xdebug.ini"
-
-sudo php5enmod mcrypt
 
 sudo mkdir /opt/composer
 sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/opt/composer/
