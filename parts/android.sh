@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wget https://dl.google.com/dl/android/studio/ide-zips/1.4.0.10/android-studio-ide-141.2288178-linux.zip --output-document=studio.zip
+wget https://dl.google.com/dl/android/studio/ide-zips/2.1.0.9/android-studio-ide-143.2790544-linux.zip --output-document=studio.zip
   unzip studio.zip
   sudo mv android-studio/ /opt/android-studio
   rm studio.zip
