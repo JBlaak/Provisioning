@@ -15,3 +15,6 @@ dconf write /org/compiz/integrated/show-hud '[""]'
 
 # Don't let gedit create ~ files
 gsettings set org.gnome.gedit.preferences.editor create-backup-copy false 
+
+# By clicking on launcher icon the screen will actually minimize
+gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
