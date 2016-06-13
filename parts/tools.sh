@@ -13,4 +13,7 @@ sudo apt-get install -y shutter
 sudo apt-get install -y poedit
 
 # For editing the application menu
-sudo apt-get instally -y alacarte
+sudo apt-get install -y alacarte
+
+# Fot quick and easy http request
+sudo apt-get install -y httpie
