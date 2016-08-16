@@ -14,6 +14,7 @@ sudo apt-get install -y php7.0-dom
 sudo apt-get install -y php7.0-zipc
 sudo apt-get install -y php7.0-gmp
 sudo apt-get install -y php-soap
+sudo apt-get install -y php-apcu
 
 # https://gist.github.com/nivv/5d9a12af5472b91606e6
 sudo apt-get install -y pkg-config libmagickwand-dev imagemagick build-essential
