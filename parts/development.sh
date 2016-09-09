@@ -12,9 +12,9 @@ sudo apt-get install -y xvfb
 sudo sh -c "echo fs.inotify.max_user_watches = 524288 >> /etc/sysctl.conf"
 
 # Sublime!
-wget "http://c758482.r82.cf2.rackcdn.com/sublime-text_build-3083_amd64.deb"
-sudo dpkg -i sublime-text_build-3083_amd64.deb
-rm sublime-text_build-3083_amd64.deb
+wget "https://download.sublimetext.com/sublime-text_build-3114_amd64.deb"
+sudo dpkg -i sublime-text_build-3114_amd64.deb
+rm sublime-text_build-3114_amd64.deb
 
 # Some fonts
 wget --output-document=fonts.zip https://www.dropbox.com/sh/92sp64zou2hnbj4/AABVopCxhXRWU1p3EjmwcQ8Ya?dl=1
