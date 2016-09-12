@@ -15,5 +15,8 @@ sudo apt-get install -y poedit
 # For editing the application menu
 sudo apt-get install -y alacarte
 
-# Fot quick and easy http request
+# For quick and easy http request
 sudo apt-get install -y httpie
+
+# Indicator applet to check how busy the system is
+sudo apt-get install indicator-multiload
