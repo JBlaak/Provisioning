@@ -1,5 +1,5 @@
 #!/bin/sh
 
-sudo apt-get install -y redshift
-sudo apt-get install -y redshift-gtk
+sudo apt install -y redshift
+sudo apt install -y redshift-gtk
 
