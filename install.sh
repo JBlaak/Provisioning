@@ -4,6 +4,10 @@
 sudo apt update
 sudo apt upgrade -y
 
+# Settings
+# GNOME workspaces on all screens
+gsettings set org.gnome.shell.overrides workspaces-only-on-primary false
+
 # Parts
 ./parts/stuffs.sh
 ./parts/git.sh
