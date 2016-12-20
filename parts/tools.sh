@@ -19,4 +19,6 @@ sudo apt install -y alacarte
 sudo apt install -y httpie
 
 # Indicator applet to check how busy the system is
-sudo apt install indicator-multiload
+sudo apt install -y indicator-multiload
+
+sudo apt install -y htop
