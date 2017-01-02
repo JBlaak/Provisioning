@@ -17,6 +17,7 @@ sudo apt install -y php-soap
 sudo apt install -y php-apcu
 sudo apt install -y php-imagick
 sudo apt install -y php-zip
+sudo apt install -y php7.0-imap
 
 # https://gist.github.com/nivv/5d9a12af5472b91606e6
 sudo apt install -y pkg-config libmagickwand-dev imagemagick build-essential
