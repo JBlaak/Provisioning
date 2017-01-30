@@ -1,24 +1,26 @@
 #!/bin/sh
 
-sudo apt install -y php
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get update
 
+sudo apt-get install php7.1 
 
-sudo apt install -y php7.0-gd
-sudo apt install -y php7.0-mcrypt
-sudo apt install -y php7.0-curl
-sudo apt install -y php7.0-intl
-sudo apt install -y php7.0-mysql
-sudo apt install -y php7.0-pgsql
-sudo apt install -y php7.0-mbstring
-sudo apt install -y php7.0-dom
-sudo apt install -y php7.0-zipc
-sudo apt install -y php7.0-gmp
+sudo apt install -y php7.1-gd
+sudo apt install -y php7.1-mcrypt
+sudo apt install -y php7.1-curl
+sudo apt install -y php7.1-intl
+sudo apt install -y php7.1-mysql
+sudo apt install -y php7.1-pgsql
+sudo apt install -y php7.1-mbstring
+sudo apt install -y php7.1-dom
+sudo apt install -y php7.1-zipc
+sudo apt install -y php7.1-gmp
 sudo apt install -y php-soap
 sudo apt install -y php-apcu
 sudo apt install -y php-imagick
 sudo apt install -y php-zip
-sudo apt install -y php7.0-imap
-sudo apt install -y php7.0-mailparse
+sudo apt install -y php7.1-imap
+sudo apt install -y php7.1-mailparse
 
 # https://gist.github.com/nivv/5d9a12af5472b91606e6
 sudo apt install -y pkg-config libmagickwand-dev imagemagick build-essential
