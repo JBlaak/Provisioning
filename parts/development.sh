@@ -1,9 +1,6 @@
 #!/bin/sh
 
 sudo apt install -y ruby-full 
-sudo gem install sass
-sudo gem install jekyll jekyll-sass rouge
-sudo apt install -y filezilla
 
 # Virtual frame buffer
 sudo apt install -y xvfb
