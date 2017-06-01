@@ -23,3 +23,10 @@ rm fonts.zip
 
 # Hack font
 sudo apt install -y fonts-hack-ttf
+
+# Heroku toolbelt
+sudo apt-get install software-properties-common # debian only
+sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
+curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+sudo ap update
+sudo apt install -y heroku
