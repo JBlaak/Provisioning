@@ -22,3 +22,8 @@ sudo apt install -y httpie
 sudo apt install -y indicator-multiload
 
 sudo apt install -y htop
+
+# For creating sceencasts as GIF
+sudo add-apt-repository ppa:peek-developers/stable
+sudo apt update
+sudo apt install peek
