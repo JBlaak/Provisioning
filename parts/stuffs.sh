@@ -13,5 +13,5 @@ sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update
 
 wget http://ppa.launchpad.net/hiberis/ppa/ubuntu/pool/main/libp/libpng/libpng12-0_1.2.27-1ubuntu1~ppa1_amd64.deb
-sudo dpkg -i libpng12-0_1.2.27-1ubuntu1-ppa1_amd64.deb
-rm libpng12-0_1.2.27-1ubuntu1-ppa1_amd64.deb
+sudo dpkg -i libpng12-0_1.2.27-1ubuntu1\~ppa1_amd64.deb
+rm libpng12-0_1.2.27-1ubuntu1\~ppa1_amd64.deb
