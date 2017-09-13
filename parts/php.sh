@@ -3,7 +3,7 @@
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
 
-sudo apt-get install php7.1 
+sudo apt-get install -y php7.1 
 
 sudo apt install -y php7.1-gd
 sudo apt install -y php7.1-mcrypt
