@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # MySQL
-sudo apt install -y mysql-server
+sudo apt install mysql-server
 
 # Emma, for browsing MySQL databases
 sudo apt install -y emma
