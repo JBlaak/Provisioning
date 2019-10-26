@@ -7,6 +7,9 @@ sudo apt install mysql-server
 sudo apt install -y emma
 
 # MySQL Workbech
-wget https://cdn.mysql.com//Downloads/MySQLGUITools/mysql-workbench-community-6.3.9-1ubuntu16.10-amd64.deb
-sudo dpkg -i mysql-workbench-community-6.3.9-1ubuntu16.10-amd64.deb
-rm mysql-workbench-community-6.3.9-1ubuntu16.10-amd64.deb
+wget https://repo.mysql.com//mysql-apt-config_0.8.14-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.14-1_all.deb
+sudo apt update
+sudo apt install -y mysql-workbench-community
+rm mysql-apt-config_0.8.14-1_all.deb
+
