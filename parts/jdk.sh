@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo apt install default-jre
+sudo apt install openjdk-8-jdk
