@@ -18,7 +18,6 @@ chmod 0600 ~/.ssh/id_rsa.pub
 ./parts/vim.sh
 ./parts/chrome.sh
 ./parts/tools.sh
-./parts/slack.sh
 ./parts/zsh.sh
 
 echo "=============================================="
